@@ -33,7 +33,6 @@ This project does not include CSS styling yet—it’s focused entirely on struc
 ```plaintext
 single-page-cv/
 ├── index.html
-├── favicon.ico
 ├── README.md
 ├── LICENSE
 └── .gitignore
