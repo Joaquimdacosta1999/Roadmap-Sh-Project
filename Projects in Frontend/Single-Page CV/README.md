@@ -2,8 +2,8 @@
 
 This project was built as part of the [roadmap.sh](https://roadmap.sh/) Frontend Developer path. The goal is to create a structured, single-page CV using only HTML. It focuses on semantic markup, SEO best practices, and preparing the page for future styling.
 
-[Single Page CV](https://github.com/Joaquimdacosta1999/Roadmap-Sh-Repository/tree/main/Projects%20in%20Frontend/Single-Page%20CV)
-
+Project URL: https://joaquimdacosta1999.github.io/Single-Page-CV/
+Project URL: https://roadmap.sh/projects/single-page-cv
 ---
 
 ## 📖 Project Overview
