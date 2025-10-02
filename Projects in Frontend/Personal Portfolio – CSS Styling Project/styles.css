@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+body {
+    background-color:black;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+  position: relative;
+  font-size: 36px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10%;
+}
+
+.logo:hover {
+  color: #555;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+header .logo a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-right: 60px;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+header nav ul li a:hover {
+    background-color: #555;
+    color: black;
+    transform: scale(1.1);
+}
+
+.hero {
+    background: url("https://images.unsplash.com/photo-1642455509390-5fd964092a41?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 80%;   
+}
+
+.home-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    line-height: 2.2;
+}
+
+.home-content p {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.home-content .btn {
+    display: inline-block;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: 700;
+}
