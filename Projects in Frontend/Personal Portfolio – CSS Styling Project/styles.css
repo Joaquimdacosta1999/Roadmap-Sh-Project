@@ -33,7 +33,7 @@ header {
 }
 
 .logo:hover {
-  color: wheat;
+  color: white;
   transition: all 0.3s ease;
   cursor: pointer;
   margin-left: 20px;
@@ -97,28 +97,48 @@ header nav ul li a:hover {
 
 .home-content .social-links {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   width: 100%;
   gap: 15px;
   margin: 20px 0 0;
 }
-.home-content .social-links a  {
+
+.home-content .social-links-resume a  {
     color: white;
-    font-size: 24px;
+    font-size: 15px;
+    background-color: #333;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px 20px;
     transition: color 0.3s ease;
     text-align: center;
+    border: 2px solid white;
+}
+
+.home-content .social-links-resume a:hover {
+    color: black;
+    background-color: white;
+    transform: scale(1.1);
     text-decoration: none;
-    border-radius: 15px;
-    background: #333;
-    flex-direction: row;
-    justify-content: center;
+}
+.home-content .social-links a {
+    color: white;
+    font-size: 15px;
+    background-color: #333;
+    border-radius: 50%;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+    text-align: center;
+    border: 2px solid white;
+    margin-top: 10px;
 }
 
 .home-content .social-links a:hover {
-    color: #555;
-    background: white;
+    color: black;
+    background-color: white;
     transform: scale(1.1);
+    text-decoration: none;
 }
 
 footer {
